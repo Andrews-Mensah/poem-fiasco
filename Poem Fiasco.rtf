@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 $ git checkout HEAD road-not-taken.txt\
+$ git checkout HEAD oven-bird.txt\
+$ git diff fire-and-ice.txt\
+$ git add .\
+$ git reset HEAD fire-and-ice.txt\
+$ git commit -m 'remove fire-and-ice.txt'\
+[master caa482b] remove fire-and-ice.txt\
+ 2 files changed, 6 insertions(+)\
+$ git add .\
+$ git commit -m 'come to me'\
+[master 782b970] come to me\
+ 3 files changed, 7 insertions(+), 1 deletion(-)\
+$ git log\
+commit 782b970d4db610af4dbec16bcf18c82740403264\
+Author: codecademy <ccuser@codecademy.com>\
+Date:   Sat Jul 31 19:43:16 2021 +0000\
+\
+    come to me\
+\
+commit caa482b1452aca0f0da347b698b63728a42236ff\
+Author: codecademy <ccuser@codecademy.com>\
+Date:   Sat Jul 31 19:38:43 2021 +0000\
+\
+    remove fire-and-ice.txt\
+\
+commit 8a8cf5a34991e23726fab0d5cfa630b6fb069dd6\
+Author: danasselin <johndoe@example.com>\
+Date:   Thu Nov 19 11:05:57 2015 -0500\
+\
+    Start Fire and Ice\
+\
+commit 7a737817881418fd12225ea3bd415c5ee9214eb8\
+Author: danasselin <johndoe@example.com>\
+Date:   Wed Nov 18 17:37:19 2015 -0500\
+\
+    Add work to Oven Bird\
+\
+commit 9bfc696d36fe2806f6624df6109e5c07ea4df48d\
+Author: danasselin <johndoe@example.com>\
+Date:   Wed Nov 18 17:35:12 2015 -0500\
+\
+    Add all but last line, Road Not Taken\
+\
+commit bf498d9ab9017afc0ba7e6f03e715dab55bb644f\
+Author: danasselin <johndoe@example.com>\
+Date:   Wed Nov 18 17:14:39 2015 -0500\
+\
+$git reset 782b970\
+$ git checkout HEAD road-not-taken.txt\
+$ git checkout HEAD oven-bird.txt\
+$ git checkout HEAD fire-and-ice.txt\
+}
